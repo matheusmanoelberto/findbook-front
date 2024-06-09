@@ -1,13 +1,7 @@
-import { Header } from "./components/Header/Header";
-import { Title } from "./components/Title/Title";
+import { Home } from "./pages/Home";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Title title="Test" />
-    </>
-  );
+  return <Home />;
 }
 
 export default App;

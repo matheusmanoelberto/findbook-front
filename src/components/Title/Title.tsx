@@ -3,5 +3,9 @@ type Props = {
 };
 
 export function Title({ title }: Props) {
-  return <div>{title}</div>;
+  return (
+    <div className="text-5xl border-b-2 border-b-evergreen-light w-fit font-bold text-evergreen">
+      {title}
+    </div>
+  );
 }
