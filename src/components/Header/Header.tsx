@@ -12,7 +12,7 @@ export function Header() {
       <Container>
         <HeaderTitle />
         <div>
-          <p className="text-7xl font-bold text-evergreen">
+          <p className="md:text-7xl text-3xl font-bold text-evergreen">
             Encontre livros <br />
             que seja a sua cara!
           </p>
